@@ -1,2 +1,5 @@
 venv/
 .venv/
+
+Data_Files/base_data.csv
+Data_Files/base_data
