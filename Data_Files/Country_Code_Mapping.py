@@ -1,7 +1,6 @@
 import pandas as pd
 
-
-codes = pd.read_csv("country_codes.csv", encoding="utf-8-sig")
+codes = pd.read_csv("../codes_Files/country_codes.csv", encoding="utf-8-sig")
 mortality = pd.read_csv("Morticd10_part6.csv", encoding="utf-8-sig")
 merged = mortality.merge(codes, left_on="Country", right_on="country", how="left")
 merged["Country"] = merged["name"]
