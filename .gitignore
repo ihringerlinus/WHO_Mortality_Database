@@ -4,5 +4,13 @@ venv/
 Data_Files/base_data.csv
 Data_Files/base_data
 
-mortality_with_country_names.csv
-mortality_with_country_names
+Data_Files/base_data_with_lookup.csv
+Data_Files/base_data_with_lookup
+
+
+Data_Files/country_lookup.csv
+Data_Files/country_lookup
+
+
+Data_Files/base_data_with_lookup.csv
+Data_Files/base_data_with_lookup
