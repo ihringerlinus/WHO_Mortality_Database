@@ -4,8 +4,17 @@ venv/
 Data_Files/base_data.csv
 Data_Files/base_data
 
+Data_Files/base_data103.csv
+Data_Files/base_data103
+
+Data_Files/base_data104
+Data_Files/base_data104.csv
+
 Data_Files/base_data_with_lookup.csv
 Data_Files/base_data_with_lookup
+
+Data_Files/base_data104_with_lookup.csv
+Data_Files/base_data104_with_lookup
 
 
 Data_Files/country_lookup.csv
