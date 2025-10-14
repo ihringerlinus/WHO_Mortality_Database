@@ -1,4 +1,4 @@
-﻿;;;;;;cause_codes;;;cause_name;;;;;;;
+﻿;;;;;;;cause_codes;cause_name;;;;;;;;
 3;N;X;1;A00;A00.-;A00;A00;Cholera;Cholera;;;001;4-002;3-003;2-001;1-002
 4;T;X;1;A00;A00.0;A00.0;A000;Cholera due to Vibrio cholerae 01, biovar cholerae;Cholera;Cholera due to Vibrio cholerae 01, biovar cholerae;;001;4-002;3-003;2-001;1-002
 4;T;X;1;A00;A00.1;A00.1;A001;Cholera due to Vibrio cholerae 01, biovar eltor;Cholera;Cholera due to Vibrio cholerae 01, biovar eltor;;001;4-002;3-003;2-001;1-002
