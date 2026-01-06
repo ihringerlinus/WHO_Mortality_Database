@@ -30,7 +30,7 @@ Darauf aufbauen haben wir eine vertiefte Analyse zur vorzeitigen Mortalität dur
 
 In einem weiteren Schritt führten wir ein regionale Vertiefungen für Europa durch und betrachteten Sterberaten pro 100000 Einwohner in den verschiedenen Ländern.
 
-Ergänzend haben wir auch die Todesursachen untersucht, um Unterschiede zwischen Ländern zu finden.
+Ergänzend haben wir auch die Todesursachen untersucht, um Unterschiede zwischen Ländern zu finden. Die Analyse kombiniert deskriptive, vergleichende und inferenzstatistische Methoden, um globale und länderspezifische Muster der Mortalität systematisch zu untersuchen. Neben explorativer Datenanalyse und Visualisierungen werden Todesursachen nach Kategorien, Geschlecht und Regionen verglichen sowie bevölkerungsbezogene Sterberaten berechnet. Ergänzend kommen Effektstärken, Regressionsmodelle und Panelansätze zum Einsatz, um Zusammenhänge, Unterschiede und zeitliche Entwicklungen der Mortalität robust einzuordnen.
 
 ## Contributions
 
