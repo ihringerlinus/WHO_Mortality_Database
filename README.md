@@ -3,7 +3,7 @@
 ## Projektübersicht
 In unserem Projekt analysieren wir Daten aus der WHO Mortality Database, um Unterschiede in der Sterblichkeit zwischen Ländern zu untersuchen. Zunächst haben wir den Datensatz aufbereitet. Dies beinhaltete Zusammenführen mehrerer CSV-Dateien, Entfernen irrelevanter Zeilen, Ergänzen von Spaltennamen und Mapping von Länder-Codes zu Ländernamen und prüfen die Datenqualität (Missingness, Konsistenz/Merging, Outlier-Analyse).
 
-In der Analyse liegt der Fokus auf vorzeitiger Mortalität (Anteil der Todesfälle unter 65 Jahren) sowie auf allgemeinen Sterberaten pro 100’000 Einwohner. Wir haben globale Muster in einer Weltkarte visualisiert. Dabei lag der Fokus stets auf dem Jahr 2017, da dieses über alle Länder hinweg am meisten Daten aufwies. Zudem führten wir eine Auswertung für Europa durch für das Jahr 2009. Daneben untersuchten wir auch Zusammenhänge mit Lebenserwartung und sozioökonomischen Faktoren wie dem BIP pro Kopf mit Hilfe der Korrelationen, Effektstärken und Regressionsmodellen. Ergänzend werden Häufigkeiten von Todesursachen pro Land ausgewertet.
+In der Analyse liegt der Fokus auf vorzeitiger Mortalität (Anteil der Todesfälle unter 65 Jahren) sowie auf allgemeinen Sterberaten pro 100'000 Einwohner. Wir haben globale Muster in einer Weltkarte visualisiert. Dabei lag der Fokus stets auf dem Jahr 2017, da dieses über alle Länder hinweg am meisten Daten aufwies. Zudem führten wir eine Auswertung für Europa durch für das Jahr 2009. Daneben untersuchten wir auch Zusammenhänge mit Lebenserwartung und sozioökonomischen Faktoren wie dem BIP pro Kopf mit Hilfe der Korrelationen, Effektstärken und Regressionsmodellen. Ergänzend werden Häufigkeiten von Todesursachen pro Land ausgewertet.
 
 ## Projektstruktur
 
@@ -24,7 +24,7 @@ Unsere Analyse basiert auf mehreren CSV-Dateien aus der WHO Mortality Database, 
 
 Unsere Analyse begann mit der Aufbereitung der Rohdaten aus der WHO Mortality Database durch Zusammenführen mehrerer Teildateien und Vereinheitlichung von Länder- und Causes-Code. 
 
-Anschließend haben wir eine explorative Datenanalyse durchgeführt, bei der Datenabdeckung, Verteilungen und Ausreißer untersucht wurden. Bereits in diesem Schritt haben wir die Sterberaten pro Land berechnet, sowie Zusammenhangsanalysen mit Pearson und Spearman-Korrelationen durchgeführt.
+Anschliessend haben wir eine explorative Datenanalyse durchgeführt, bei der Datenabdeckung, Verteilungen und Ausreisser untersucht wurden. Bereits in diesem Schritt haben wir die Sterberaten pro Land berechnet, sowie Zusammenhangsanalysen mit Pearson und Spearman-Korrelationen durchgeführt.
 
 Darauf aufbauen haben wir eine vertiefte Analyse zur vorzeitigen Mortalität durchgeführt. Darin bezogen wir uns auf den Anteil der Todesfälle unter 65 Jahren pro Land im Jahr 2017. Diese Ergebnisse haben wir sowohl statistisch ausgewertet als auch visuell (Weltkarte) dargestellt. Zur Untersuchung von Gruppenunterschieden und Zusammenhängen brauchten wir Cohen’s d, Kruskal-Wallis-Test sowie multiple lineare Regressionsmodelle zum Einsatz. 
 
