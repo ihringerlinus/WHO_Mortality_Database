@@ -28,4 +28,12 @@ Dieses File enthält eine Sammlung der Prompts, welche wir während unseres Proj
 | Mein Chi-Quadrat-Test gibt p = 0.0 - ist das ein Fehler und wie schreibe ich das korrekt in den Bericht? | Diente zur korrekten Interpretation extrem kleiner p-Werte und sauberer Schreibweise (z.B. p < 0.001 / p ≈ 0). |
 | Wie interpretiere ich Cramér’s V = 0.31 inhaltlich (klein/mittel/gross) ohne zu viel zu behaupten? | Diente zur Einordnung der praktischen Relevanz, unabhängig von grosser Stichprobe. |
 | Was ist der Unterschied zwischen gepooltem OLS und Country Fixed Effects im Panel, und warum ist FE “inhaltlich sauberer”? | Wurde genutzt, um den Unterschied Between vs. Within verständlich und prüfungstauglich zu erklären. |
-| 
+| Wie zwinge ich bei mehreren Subplots (Small Multiples) eine identische x-Achse (0–100) und gleiche Ticks, damit Länder direkt vergleichbar sind? | Damit die Skalen nicht pro Plot variieren und man Unterschiede visuell korrekt vergleichen kann. |
+| Wie kann ich ein gestapeltes Balkendiagramm so formatieren, dass es immer exakt bis 100% geht (ylim 0–100) und die Legende nicht überlappt? | Saubere Darstellung von Anteilen und besseres Layout.|
+| Wie sortiere ich eine horizontale Balkengrafik nach Prozentwerten, ohne dass Labels abgeschnitten werden? | Sortierung + Layout-Fixes (tight_layout, subplots_adjust).|
+| Wie kann ich eine einheitliche Farbzuordnung über zwei Pie-Charts (Male/Female) sicherstellen, sodass dieselbe Ursache immer dieselbe Farbe hat? | Konsistenz in der Farblogik zwischen Plots.|
+| Wie mache ich aus einer langen Tabelle eine schön formatierte Ausgabe im Notebook (z.B. Tausendertrennzeichen, gerundet, ohne scientific notation)? | Für Reports und saubere Notebook-Ausgaben. |
+| Wie visualisiere ich Konfidenzintervalle aus Bootstrap-Ergebnissen als Errorbar-Plot und füge eine Null-Linie zur Orientierung hinzu? | Für Sex-Gap-Darstellungen (CI sichtbar, Richtung interpretierbar). |
+| Wie überprüfe ich, ob meine Aggregation wirklich eindeutig ist (z.B. pro Country–Year–Sex nur 1 Zeile) und wo Duplikate entstehen? | Absicherung, dass das Panel korrekt gebaut ist. |
+| Wie kann ich die “Unbalancedness” eines Panels berechnen und verständlich in Text erklären? | Sauberes Reporting für unbalancierte Panels. |
+| Wie gehe ich mit Ausreissern bei absoluten Todeszahlen um (heavy tails) ohne “willkürlich” zu filtern? | Methodisch sauber: Log, Quantile, Robustheit. |
